@@ -1,0 +1,331 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1400px) {
+    .admission-info {
+        top: 0;
+        padding: 35px 0 5px 185px;
+    }
+    .admission-info_list-item {
+        margin-bottom: 46px;
+    }
+    .admission_title {
+        margin-top: 100px;
+    }
+
+    .hotels__container {
+        max-width: 100%;
+        overflow: visible;
+    }
+    .hotels__item-wrap {
+        width: 33.333%;
+    }
+    .hotels__slider {
+        overflow: visible;
+    }
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width : 1200px) {
+    .intro {
+        padding: 80px 0 150px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .admission {
+        padding: 0;
+        position: relative;
+        top: -90px;
+    }
+    .admission-info {
+        margin-bottom: 50px;
+    }
+    .admission_img img {
+        max-width: 100%;
+    }
+    .admission_media-wrap {
+        order: 2;
+    }
+    .admission_content-wrap {
+        order: 1;
+    }
+    .admission-info {
+        position: relative;
+        left: unset;
+        top: unset;
+        max-width: 100%;
+    }
+
+    .footer__container {
+        flex-direction: column;
+    }
+    .footer-links {
+        margin-top: 20px;
+    }
+}
+
+/* md <= Large (lg) */
+@media (max-width : 992px) {
+    .buttons {
+        display: flex;
+        justify-content: center;
+    }
+    a.buttons__btn {
+        max-width: 315px;
+    }
+}
+
+/* sm <= Medium (md) */
+@media (max-width : 768px) {
+    .intro {
+        padding: 78px 0 150px;
+    }
+    .intro_subtitle {
+        font-size: 45px;
+    }
+    .intro_title {
+        font-size: 66px;
+        line-height: 70.45px;
+        margin-bottom: 45px;
+    }
+
+    .buttons {
+        margin-top: 50px;
+    }
+    a.buttons__btn {
+        padding: 15px 18px;
+        font-size: 16px;
+        line-height: 13px;
+        border-radius: var(--border-radius-mobile);
+    }
+    .buttons__btn--blue {
+        border: 2px solid var(--accent);
+    }
+    a.buttons__btn--white {
+        border: 2px solid #fff;
+    }
+    .buttons__btn--ticket {
+        margin-right: 15px;
+    }
+    .buttons__btn--vendor {
+        margin-left: 15px;
+    }
+
+    .admission-info {
+        padding: 32px 0 5px 85px;
+    }
+    .admission-info_list {
+        max-width: 225px;
+    }
+    .admission-info_list-item {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .admission-info_list-item span {
+        font-size: 14px;
+    }
+    .admission-info_list-item svg {
+        width: 32px;
+        top: 0;
+        left: -50px;
+    }
+    .admission_title {
+        font-size: 38px;
+        line-height: 42px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .admission_img-bottom {
+        margin-top: 30px;
+    }
+    .admission-list_item {
+        margin-bottom: 20px;
+    }
+    .admission-list {
+        padding-left: 25px;
+    }
+    .marked-list > li:before {
+        content: url(/images/check_circle_mobile.svg);
+        top: 0;
+        left: -25px;
+    }
+
+    .hotels__title {
+        font-size: 38px;
+        line-height: 42px;
+        margin-bottom: 30px;
+    }
+    .hotels-item-info__title {
+        font-size: 26px;
+    }
+    .hotels-item-info__list-item-icon {
+        width: 20px;
+    }
+    .hotels-item-info__list {
+        margin-top: 30px;
+    }
+    .hotels-item-info__list-item {
+        margin-bottom: 20px;
+    }
+    .hotels-item-info__by {
+        font-size: 20px;
+    }
+}
+
+/* xs <= Small (sm) */
+@media (max-width : 576px) {
+    .intro_subtitle {
+        font-size: 24px;
+        line-height: 29.26px;
+    }
+    .intro_title {
+        font-size: 34px;
+        line-height: 41.45px;
+    }
+
+    .logo_image {
+        max-width: 218px;
+    }
+
+    a.buttons__btn {
+        padding: 9px 12px;
+        font-size: 10.07px;
+        line-height: 13px;
+        max-width: 135px;
+    }
+    a.buttons__btn--blue {
+        border: 1px solid var(--accent);
+    }
+    a.buttons__btn--white {
+        border: 1px solid #fff;
+    }
+    .buttons__btn--ticket {
+        margin-right: 6px;
+    }
+    .buttons__btn--vendor {
+        margin-left: 6px;
+    }
+
+    .admission_title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .admission-list_item {
+        font-size: 16px;
+    }
+
+    .hotels {
+        padding: 40px 0;
+    }
+    .hotels__title {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
+    .hotels-item-info {
+        padding: 27px 16px;
+        min-height: 220px;
+    }
+    .hotels-item-info__title {
+        font-size: 17.88px;
+        line-height: 21px;
+        margin-bottom: 0;
+    }
+    .hotels-item-info__by {
+        font-size: 13.41px;
+        line-height: 15px;
+        margin-bottom: 0;
+    }
+    .hotels-item-info__list-item {
+        font-size: 13.41px;
+        line-height: 15.72px;
+        margin-bottom: 15px;
+    }
+    .hotels-item-info__list {
+        margin-top: 20px;
+        padding-left: 25px;
+    }
+    .hotels-item-info__list-item-icon {
+        width: 15px;
+        left: -25px;
+    }
+
+    .footer__copy p {
+        font-size: 16px;
+    }
+    .footer-links__by {
+        font-size: 16px;
+    }
+    .footer-links__link {
+        font-size: 16px;
+    }
+
+    .form-wrap {
+        margin-top: 30px;
+    }
+    .popup__title {
+        font-size: 24px;
+    }
+    .vendor-form,
+    .ticket-form {
+        margin-top: 0;
+    }
+    .form--white > input,
+    .form--white > textarea {
+        margin-top: 15px;
+    }
+    .form > input,
+    .form > textarea {
+        margin-top: 15px;
+    }
+    .form > input::placeholder,
+    .form > textarea::placeholder {
+        font-size: 14px;
+        line-height: 25.6px;
+    }
+    .form > textarea {
+        height: 120px;
+    }
+    .form-wrap {
+        margin: 0;
+    }
+}
+
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width : 0) {
+
+}
+
+/* Small (sm) */
+@media (min-width : 576px) {
+
+}
+
+/* Medium (md) */
+@media (min-width : 768px) {
+
+}
+
+/* Large (lg) */
+@media (min-width : 992px) {
+
+}
+
+/* Extra large (xl) */
+@media (min-width : 1200px) {
+
+}
+
+/* Extra extra large (xxl) */
+@media (min-width : 1400px) {
+    .container {
+        max-width: 1440px;
+    }
+}
