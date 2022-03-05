@@ -6,10 +6,10 @@
         top: 0;
         padding: 35px 0 5px 185px;
     }
-    .admission-info_list-item {
+    .admission-info__list-item {
         margin-bottom: 46px;
     }
-    .admission_title {
+    .admission__title {
         margin-top: 100px;
     }
 
@@ -44,13 +44,13 @@
     .admission-info {
         margin-bottom: 50px;
     }
-    .admission_img img {
+    .admission__img img {
         max-width: 100%;
     }
-    .admission_media-wrap {
+    .admission__media-wrap {
         order: 2;
     }
-    .admission_content-wrap {
+    .admission__content-wrap {
         order: 1;
     }
     .admission-info {
@@ -84,10 +84,10 @@
     .intro {
         padding: 78px 0 150px;
     }
-    .intro_subtitle {
+    .intro__subtitle {
         font-size: 45px;
     }
-    .intro_title {
+    .intro__title {
         font-size: 66px;
         line-height: 70.45px;
         margin-bottom: 45px;
@@ -118,31 +118,31 @@
     .admission-info {
         padding: 32px 0 5px 85px;
     }
-    .admission-info_list {
+    .admission-info__list {
         max-width: 225px;
     }
-    .admission-info_list-item {
+    .admission-info__list-item {
         font-size: 16px;
         margin-bottom: 30px;
     }
-    .admission-info_list-item span {
+    .admission-info__list-item span {
         font-size: 14px;
     }
-    .admission-info_list-item svg {
+    .admission-info__list-item svg {
         width: 32px;
         top: 0;
         left: -50px;
     }
-    .admission_title {
+    .admission__title {
         font-size: 38px;
         line-height: 42px;
         margin-top: 50px;
         margin-bottom: 30px;
     }
-    .admission_img-bottom {
+    .admission__img-bottom {
         margin-top: 30px;
     }
-    .admission-list_item {
+    .admission-list__item {
         margin-bottom: 20px;
     }
     .admission-list {
@@ -178,16 +178,16 @@
 
 /* xs <= Small (sm) */
 @media (max-width : 576px) {
-    .intro_subtitle {
+    .intro__subtitle {
         font-size: 24px;
         line-height: 29.26px;
     }
-    .intro_title {
+    .intro__title {
         font-size: 34px;
         line-height: 41.45px;
     }
 
-    .logo_image {
+    .logo__image {
         max-width: 218px;
     }
 
@@ -210,11 +210,11 @@
         margin-left: 6px;
     }
 
-    .admission_title {
+    .admission__title {
         font-size: 28px;
         line-height: 36px;
     }
-    .admission-list_item {
+    .admission-list__item {
         font-size: 16px;
     }
 
